@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg img {
+  z-index: -99;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.bg img:last-child {
+  display: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding-top: 130px;
+  text-align: center;
+}
+header h1 {
+  padding-top: 50px;
+  font-size: 40px;
+  color: #4c545d;
+}
+header p {
+  font-size: 19px;
+  color: #9fabb2;
+  padding-top: 20px;
+}
+header .buttons {
+  padding-top: 50px;
+}
+header .buttons button {
+  padding: 15px 35px;
+  border-radius: 9999px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+header .buttons button:first-child {
+  background-color: #26baa4;
+  margin-right: 15px;
+}
+header .buttons button:last-child {
+  background-color: #6173ff;
+}
+
+section {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+section h1 {
+  color: #4c545d;
+  font-size: 37px;
+  margin-top: 140px;
+  font-weight: 600;
+}
+section p {
+  color: #9fabb2;
+  font-size: 19px;
+  padding-top: 20px;
+  margin-bottom: 100px;
+  line-height: 1.7;
+}
+section .section-info {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .section-info img {
+  margin-left: -30px;
+}
+section .section-info .text-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #4c545d;
+  padding-left: 120px;
+}
+section .section-info .text-info p {
+  padding: 0;
+  line-height: 1.8;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+section .section-info .text-info h3 {
+  font-size: 27px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+section .section-info .text-info div {
+  margin-top: 50px;
+}
+
+.imac .heading-text {
+  width: 53%;
+  margin: 0 auto 70px auto;
+}
+
+.workflow {
+  margin: 0 auto;
+}
+.workflow h1 {
+  margin-top: 50px;
+}
+.workflow p {
+  margin-bottom: 20px;
+}
+.workflow .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.workflow .items .thing {
+  color: #4c545d;
+  margin: 0 5px;
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+.workflow .items .thing img {
+  padding: 35px;
+}
+.workflow .items .thing h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 150px auto 150px auto;
+}
+
+.clipboard p {
+  margin: 0 0 50px;
+}
+.clipboard .buttons button {
+  padding: 15px 35px;
+  border-radius: 9999px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.clipboard .buttons button:first-child {
+  background-color: #26baa4;
+  margin-right: 15px;
+}
+.clipboard .buttons button:last-child {
+  background-color: #6173ff;
+}
+
+footer {
+  margin-top: 150px;
+  background-color: #F5F6F8;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .icon {
+  width: 60px;
+  margin: 0 125px;
+}
+footer .links {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer .links h4 {
+  padding: 13px 20px;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #4c545d;
+  font-size: 20px;
+  font-weight: 500;
+}
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 20%;
+  margin-left: 50px;
+}
+footer .social img {
+  padding-right: 25px;
+}
+footer .links h4:hover {
+  color: #26baa4;
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .bg img:first-child {
+    display: none;
+  }
+
+  .bg img:last-child {
+    display: initial;
+  }
+
+  header h1 {
+    font-size: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  header p {
+    padding: 0px 0px;
+    margin: 2px 29px;
+    font-size: 4.4vw;
+    line-height: 1.7;
+  }
+
+  .imac .heading-text {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .imac h1 {
+    font-size: 30px;
+  }
+  .imac p {
+    margin: 0 31px;
+    font-size: 17px;
+  }
+  .imac .section-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .imac .section-info img {
+    width: 80%;
+    margin: 0;
+  }
+  .imac .section-info .text-info {
+    padding: 0;
+  }
+  .imac .section-info .text-info div:nth-child(2) p br {
+    display: none;
+  }
+  .imac .section-info .text-info div:nth-child(3) p br {
+    display: none;
+  }
+  .imac .section-info .text-info p {
+    margin: 0 20px;
+  }
+
+  .ios p {
+    font-size: 17px;
+    margin: 0 16px;
+  }
+  .ios p br {
+    display: none;
+  }
+  .ios img {
+    width: 90%;
+    margin: 50px 0 0 0;
+  }
+
+  .workflow {
+    width: 95%;
+  }
+  .workflow h1 {
+    font-size: 30px;
+  }
+  .workflow p {
+    font-size: 17px;
+  }
+  .workflow .items {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .logos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logos img {
+    padding-bottom: 70px;
+  }
+
+  .clipboard h1 {
+    font-size: 30px;
+    margin: 0 10px;
+  }
+  .clipboard p {
+    margin: 0 23px 40px;
+    font-size: 17.5px;
+  }
+  .clipboard p br {
+    display: none;
+  }
+
+  footer {
+    margin-top: 100px;
+    background-color: #F5F6F8;
+    padding: 45px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer .icon {
+    width: 60px;
+    margin: 0 0 45px 0;
+  }
+  footer .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .links h4:nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  footer .links h4:nth-child(2) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  footer .links h4:nth-child(3) {
+    -webkit-box-ordinal-group: 6;
+        -ms-flex-order: 5;
+            order: 5;
+  }
+  footer .links h4:nth-child(4) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  footer .links h4:nth-child(5) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  footer .links h4 {
+    padding: 0px 0px 30px;
+    color: #4c545d;
+  }
+  footer .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0 0 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .social img {
+    padding-right: 30px;
+  }
+  footer .social img:last-child {
+    padding-right: 0;
+  }
+  footer .links h4:hover {
+    color: #4c545d;
+    cursor: default;
+  }
+
+  .buttons button {
+    width: 80%;
+  }
+
+  .clipboard .buttons button:first-child {
+    background-color: #26baa4;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  header .buttons button:first-child {
+    background-color: #26baa4;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
