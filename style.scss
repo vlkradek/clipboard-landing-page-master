@@ -55,15 +55,6 @@ header{
   }
   .buttons{
     padding-top: 50px;
-    button{
-      padding: 15px 35px;
-      border-radius: 9999px;
-      font-weight: 500;
-      border: none;
-      color: #fff;
-      font-size: 20px;
-      font-family: $bai-jamjuree;
-    }
     button:first-child{
       background-color: $strong-cyan;
       margin-right: 15px;
@@ -255,22 +246,6 @@ button:hover{
       line-height: 1.6;
       font-weight: 300;
     }
-    .buttons{
-      button{
-        width: 100%;
-      }
-    }
-    .clipboard .buttons button:first-child {
-      background-color: #26baa4;
-      margin-right: 0px;
-      margin-bottom: 20px;
-    }
-    header .buttons button:first-child {
-      background-color: #26baa4;
-      margin-right: 0px;
-      margin-bottom: 20px;
-
-    }
   }
 
   header{
@@ -426,5 +401,29 @@ button:hover{
     }
   }
 
+  header .buttons button:first-child {
+    background-color: #26baa4;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .buttons{
+    button{
+      width: 100%;
+    }
+  }
+  .clipboard .buttons button:first-child {
+    background-color: #26baa4;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  button{
+    padding: 15px 35px;
+    border-radius: 9999px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: $bai-jamjuree;
+  }
 
 }

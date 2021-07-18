@@ -60,15 +60,6 @@ header p {
 header .buttons {
   padding-top: 50px;
 }
-header .buttons button {
-  padding: 15px 35px;
-  border-radius: 9999px;
-  font-weight: 500;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  font-family: "Bai Jamjuree", sans-serif;
-}
 header .buttons button:first-child {
   background-color: #26baa4;
   margin-right: 15px;
@@ -282,22 +273,6 @@ main p {
     line-height: 1.6;
     font-weight: 300;
   }
-  header .buttons button,
-main .buttons button {
-    width: 100%;
-  }
-  header .clipboard .buttons button:first-child,
-main .clipboard .buttons button:first-child {
-    background-color: #26baa4;
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-  header header .buttons button:first-child,
-main header .buttons button:first-child {
-    background-color: #26baa4;
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
 
   header h1 {
     font-size: 32px;
@@ -477,5 +452,31 @@ main header .buttons button:first-child {
   footer .links h4:hover {
     color: #4c545d;
     cursor: default;
+  }
+
+  header .buttons button:first-child {
+    background-color: #26baa4;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .buttons button {
+    width: 100%;
+  }
+
+  .clipboard .buttons button:first-child {
+    background-color: #26baa4;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 15px 35px;
+    border-radius: 9999px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Bai Jamjuree", sans-serif;
   }
 }
